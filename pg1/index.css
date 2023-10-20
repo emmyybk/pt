@@ -1,0 +1,90 @@
+body {
+    background-color: azure;
+  }
+
+  #menubar {
+    width: 70px;
+    margin: 30px 0px 0px 30px;
+  }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    background-color: black;
+    height: 7px;
+    width: 50px;
+    margin: 10px;
+    transition: 0.4s;
+  }
+  .change .bar1 {
+    transform: translate(0, 15px) rotate(-45deg);
+  }
+
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  .change .bar3 {
+    transform: translate(0, -17px) rotate(45deg);
+  }
+
+  .home .change {
+    display: none;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 80px;
+  }
+
+  .p1 {
+    /* transform: scale(1.); */
+    margin: 80px;
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  span {
+    color: coral;
+  }
+
+  .p1>span {
+    font-size: 40px;
+  }
+
+  a {
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+  }
+
+  .page1,
+  .page2,
+  .page3,
+  .page4,
+  .page5 {
+    margin: 60px;
+    font-size: 50px;
+  }
+
+  /* .page5:hover{
+    padding: 50px;
+    background-color: aliceblue;
+  } */
+
+  a:hover {
+    color: coral;
+    transition: ease-in-out 0.3s;
+  }
+
+  .allpages {
+    display: none;
+  }
+
+  .change .allpages {
+    margin-top: 30px;
+    height: 500px;
+    width: 1350px;
+    text-align: center;
+    display: inline-block;
+  }
